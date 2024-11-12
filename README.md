@@ -8,5 +8,5 @@ En este repositorio encontrarás diferentes archivos y proyectos que te ayudará
 - Estructura semántica
 ### GitHub Pages
 Este repositorio está configurado para utilizar GitHub Pages en:
-- [https://devspace.github.io/Practicas-HTML/](https://yuleiditho.github.io/DevSpace/)
+- [My site in GitHubPages](https://yuleiditho.github.io/DevSpace/)
 
