@@ -1,19 +1,51 @@
-button {
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
-    background-color: grey; /* Color inicial del botón */
-  
-    color: white;
-  
-    padding: 10px 20px;
-  
-    border: none;
-  
-    cursor: pointer;
-  
-  }
-  
-  button:hover {
-  
-    background-color: blue; /* Color del botón cuando el ratón pasa por encima */
-  
-  }
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+}
+
+h1{
+ 
+  font-size: 24px;
+  color: rgb(216, 203, 17);
+}
+.content-main{
+  background-color: rgba(194, 255, 212, 0.896);
+}
+.elemento-static{
+  position: static;
+}
+.elemento-position {
+  position: relative; 
+  padding: 30px 60px;
+  margin: 30px;
+  left: 30px;
+  background-color: bisque;
+}
+
+.links a{
+  margin: 10px 5px;
+  padding: 20px 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: xx-large;
+  font-weight: bold;
+  border: 5px dotted purple;
+  border-radius: 15px 50px;
+}
+
+.links a:link, a:visited {
+  background-color: #f4d836;
+  color: rgb(144, 142, 250);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.links a:hover, a:active {
+  color:white;
+  background-color: rgb(255, 196, 0);
+  border: 5px dashed purple;
+}
