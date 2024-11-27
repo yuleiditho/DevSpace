@@ -3,9 +3,17 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: "Sour Gummy", sans-serif;
+  font-family: "Sour Gummy", sans-serif, fantasy;
   font-optical-sizing: auto;
 }
+
+.mi-clase {
+   color: green; 
+} /* Especificidad 10 */
+
+#mi-id { 
+  color: red; 
+} /* Especificidad 100 */
 
 h1{
  
@@ -48,4 +56,51 @@ h1{
   color:white;
   background-color: rgb(255, 196, 0);
   border: 5px dashed purple;
+}
+
+#format-text{
+  font-size: 24px;
+  font-weight: bold; /*normla, bold, números (múltiplos de 100) desde 100 a 9000*/
+  font-style: italic;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.content-header{
+  background-color: rgba(0, 0, 0, 0.831);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+.content-header h1{
+  padding-left: 15%;
+}
+.content-header nav{
+  flex-grow: 1;
+  text-align: center;
+}
+
+.content-header ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content-header li{
+  margin: 0 2em;
+}
+
+.color-nav a:link, a:visited{
+  text-decoration: none;
+  color:aliceblue;
+}
+
+.color-nav a:hover, a:active{
+  text-decoration: none;
+  color:#f4a836;
+  border: 1px dashed purple;
 }
